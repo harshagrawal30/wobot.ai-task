@@ -48,6 +48,7 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  z-index: 1;
 }
 
 h6{
@@ -55,4 +56,24 @@ h6{
   color:grey;
   font-weight: 500;
   margin-bottom: 40px;
+}
+
+#rectBox1{
+  position: absolute;
+  margin-top: 15%;
+  z-index: -1;
+}
+
+#rectBox2{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+@media (max-width:768px){
+  #rectBox1,#rectBox2{
+    display: none;
+    visibility: hidden;
+  }
 }

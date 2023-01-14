@@ -8,7 +8,8 @@
     align-items: center;
     padding: 40px;
     margin: 40px 0;
-
+    z-index: 1;
+    background-color: white;
 }
 
 #imgDiv{
@@ -35,16 +36,18 @@
     display: flex;
     padding: 20px;
     flex-direction: column;
+    height: 25px;
 }
 
 label{
     font-size: 13px;
 }
 input,select{
-    height: 25px;
+    size: 25px;
     background-color: white;
     border: 1px solid rgb(159, 159, 159,0.8);
     border-radius: 5px;
+    padding: 5px;
 }
 label{
     margin-bottom: 5px;
@@ -73,7 +76,7 @@ label{
     margin-top: 20px;
     height: 30px;
     font-weight: 600;
-    background-color: rgb(58, 58, 211);
+    background-color: #3766E8;
     color: white;
     border: 0;
     border-radius: 5px;
