@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-
+import logo from  './assests/wobot-logo_blue 1.png'
+import LoginComponent from './components/loginComponet';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +18,12 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      <img src={logo} id='companyLogo'/>
+      <div id='loginComp'>
+      <LoginComponent/>
+      </div>
+      <h6>Terms of Use | Privacy Policy</h6>
     </div>
   );
 }
